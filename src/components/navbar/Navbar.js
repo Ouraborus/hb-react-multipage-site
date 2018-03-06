@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Navbar ({content}) {
+export default function Navbar ({data}) {
+  console.log(data)
   return (
-    true
+    // finish navbar structure with simpleLinks and composedLinks
   )
 }

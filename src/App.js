@@ -5,19 +5,11 @@ import Navbar from './components/navbar/Navbar'
 import './scss/main.scss'
 
 export default class App extends Component {
-  constructor (props) {
-    super(props)
-
-    this.state = {
-      title: props.data
-    }
-  }
-
   render () {
     return (
       <Fragment>
-        <Navbar />
-        <Test data={this.state.title} />
+        <Navbar data={this.props.data.navbar} />
+        <Test data={this.props.data.test.title} />
       </Fragment>
     )
   }
