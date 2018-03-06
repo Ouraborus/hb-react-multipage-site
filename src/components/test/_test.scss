@@ -1,0 +1,17 @@
+.test{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	&__title{
+		font-size: 40px;
+	}
+	&__input{
+		width: 35%;
+		height: 30px;
+		border: 2px solid;
+	}
+	&__result{
+		color: blue;
+	}
+}
